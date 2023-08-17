@@ -1,0 +1,20 @@
+#okContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#okContainer span {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 30px;
+}
+
+#okContainer.full {
+  overflow: hidden;
+}
